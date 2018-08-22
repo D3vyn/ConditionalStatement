@@ -69,7 +69,7 @@ int main()
 	float num1, num2 = 0;
 
 	cout << "Enter two numbers \n";
-	cin >> num1, num2;
+	cin >> num1 >> num2;
 	cout << endl;
 
 	cout << "Do you want to +, -, *, or /? \n";
@@ -78,17 +78,22 @@ int main()
 	{
 		case '+':
 			cout << num1 + num2;
+			cout << endl;
 			break;
 		case '-':
 			cout << num1 - num2;
+			cout << endl;
 			break;
 		case '*':
 			cout << num1 * num2;
+			cout << endl;
 			break;
 		case '/':
 			cout << num1 / num2;
+			cout << endl;
 		default:
 			cout << "Error! Operator is not correct";
+			cout << endl;
 			break;
 
 	}
